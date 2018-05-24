@@ -5,7 +5,7 @@ class CreateBooks < ActiveRecord::Migration[5.0]
         t.string :title
         t.sting :image_url
         t.string :goodreadsurl
-        /t.int :originalpublicationyear/
+        #t.int :originalpublicationyear
 
 
       t.timestamps
